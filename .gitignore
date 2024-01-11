@@ -1,14 +1,41 @@
-node_modules
+#Allure
+allure-results
 
-#archivos autogenerados
-log.log
+#Credential
+*.tmp
+*.env
+*.env.swp
 
-# VS Code
-.vscode/
+# Maven
+target
+.factorypath
+
+# TestNG
+test-output
+report
+
+# Eclipse
+.metadata
+.settings
+.classpath
+.project
+
+# IntelliJ IDEA
+.idea
+*.iml
+
+# Windows
+RemoteSystemsTempFiles
 
 # Mac
 .DS_Store
 /bin/
 
-#Allure
-allure-results
+# VS Code
+.vscode/
+
+
+results
+
+#archivos autogenerados
+log.log
