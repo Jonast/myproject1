@@ -1,1 +1,14 @@
 node_modules
+
+#archivos autogenerados
+log.log
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+/bin/
+
+#Allure
+allure-results
